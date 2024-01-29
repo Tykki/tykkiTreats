@@ -12,6 +12,10 @@
 	font-family: Barbariska;
 	src: url("RF Barbariska Regular.ttf") format("opentype")
 }
+@font-face{
+	font-family: "Hantu_Kom_Kom";
+	src: url("Hantu_Kom_Kom.ttf") format("truetype");
+}
 *{
 	box-sizing: border-box;
 }
