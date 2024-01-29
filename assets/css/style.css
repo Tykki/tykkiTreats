@@ -73,14 +73,22 @@ header{
 	letter-spacing: 1rem;
 	display: inline-block;
 }
-.item-name{
-	padding-top: 20%;
-	font-family: Culinary;
-	font-size: 48px;
-}
 .clearT{
 	padding-right: 1rem;
 	letter-spacing: normal;
+}
+.item-name{
+	background: linear-gradient(90deg, rgba(0, 0, 0, .4),rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)) ;
+	border-radius: 15%;
+	margin-top: 20%;
+	font-family: Culinary;
+	font-size: 48px;
+}
+.row:nth-child(2) .placeholder:nth-child(1){
+	background-image: url("../imgs/frenchFries.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .placeholder{
 	background: #623780;
@@ -121,6 +129,7 @@ footer{
 		width: calc(90%/4);
 		display: inline-block;
 	}
+	
 	main>div.row:nth-child(2) .d-name::before{
 		content: "Salty";
 	}
