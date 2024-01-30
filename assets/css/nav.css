@@ -131,8 +131,23 @@
 	list-style: none;
 }
 #other a{
+  font-family: Hantu_Kom_Kom;
 	color: #623780;
+  font-size: larger;
 }
 #other a:hover{
 	color: inherit;
+}
+@media screen and (min-width: 1024px) {
+  #other li {
+    display: inline-block;
+    margin-right: 6%;
+  }
+  #other{
+    display: inline-block;
+    width: 40%;
+  }
+  #brandImg{
+    display: inline-block;
+  }
 }
