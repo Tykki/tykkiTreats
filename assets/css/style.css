@@ -80,12 +80,90 @@ header{
 .item-name{
 	background: linear-gradient(90deg, rgba(0, 0, 0, .4),rgba(0, 0, 0, 1), rgba(0, 0, 0, .4)) ;
 	border-radius: 15%;
-	margin-top: 20%;
+/*	margin-top: 20%;*/
 	font-family: Culinary;
 	font-size: 48px;
 }
 .row:nth-child(2) .placeholder:nth-child(1){
 	background-image: url("../imgs/frenchFries.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(2) .placeholder:nth-child(2){
+	background-image: url("../imgs/sour.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(2) .placeholder:nth-child(3){
+/*	background-image: url("../imgs/frenchFries.png");*/
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(3) .placeholder:nth-child(1){
+	background-image: url("../imgs/tacoBurrito.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(3) .placeholder:nth-child(2){
+	background-image: url("../imgs/wrap.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(4) .placeholder:nth-child(1){
+	background-image: url("../imgs/ramen.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(4) .placeholder:nth-child(2){
+	background-image: url("../imgs/sushi.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(7) .placeholder:nth-child(1){
+	background-image: url("../imgs/fruits.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(8) .placeholder:nth-child(2){
+	background-image: url("../imgs/juice.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(8) .placeholder:nth-child(1){
+	background-image: url("../imgs/tea1.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(9) .placeholder:nth-child(1){
+	background-image: url("../imgs/smoothie.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(9) .placeholder:nth-child(2){
+	background-image: url("../imgs/pear.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(9) .placeholder:nth-child(3){
+	background-image: url("../imgs/banana.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.row:nth-child(9) .placeholder:nth-child(4){
+	background-image: url("../imgs/cherry.png");
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -96,6 +174,7 @@ header{
 	height: 400px;
 	margin: 10px auto;
 	border-radius: 5%;
+	contain: content;
 }
 .sm-none, .lg-show{
 	display: none;
@@ -104,9 +183,16 @@ header{
 footer{
 	text-align: center;
 	background-color: rgba(202, 132, 250, .4);
+	height: 40px;
 }
 
 @media screen and (min-width: 768px) {
+	.row:nth-child(8) .placeholder:nth-child(1){
+	background-image: url("../imgs/tea2.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
 	#brandImg{
 		width: 25%;
 	}
