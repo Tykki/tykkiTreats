@@ -32,6 +32,7 @@ body{
 	background-repeat: no-repeat;
 	color: #ca84fa;
 	margin: 0;
+	cursor: url(https://cur.cursors-4u.net/food/foo-4/foo351.ani), url(https://cur.cursors-4u.net/food/foo-4/foo351.png), auto;
 }
 main{
 	text-align: center;
@@ -93,187 +94,123 @@ header{
 /* Food Row 1 */
 .row:nth-child(2) .placeholder:nth-child(1){
 	background-image: url("../imgs/frenchFries.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(2) .placeholder:nth-child(2){
 	background-image: url("../imgs/sour.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(2) .placeholder:nth-child(3){
 	background-image: url("../imgs/creamKitty.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 /* Food Row 2 */
 
 .row:nth-child(3) .placeholder:nth-child(1){
 	background-image: url("../imgs/tacoBurrito.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(3) .placeholder:nth-child(2){
 	background-image: url("../imgs/wrap.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 /* Food Row 3 */
 
 .row:nth-child(4) .placeholder:nth-child(1){
 	background-image: url("../imgs/ramen.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(4) .placeholder:nth-child(2){
 	background-image: url("../imgs/sushi.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(4) .placeholder:nth-child(3){
 	background-image: url("../imgs/pizza.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(4) .placeholder:nth-child(4){
 	background-image: url("../imgs/taco.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 /* Food Row 4 */
 .row:nth-child(5) .placeholder:nth-child(1){
 	background-image: url("../imgs/cone.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(5) .placeholder:nth-child(2){
 	background-image: url("../imgs/crissont.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(5) .placeholder:nth-child(3){
 	background-image: url("../imgs/cookie.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(5) .placeholder:nth-child(4){
 	background-image: url("../imgs/cakes.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 /* Drink Row 1 */
 
 .row:nth-child(7) .placeholder:nth-child(1){
 	background-image: url("../imgs/fruits.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(7) .placeholder:nth-child(2){
 	background-image: url("../imgs/mixed.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(7) .placeholder:nth-child(3){
 	background-image: url("../imgs/carrot.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 /* Drinks Row 2 */
 
 .row:nth-child(8) .placeholder:nth-child(2){
 	background-image: url("../imgs/juice.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(8) .placeholder:nth-child(1){
 	background-image: url("../imgs/tea1.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 /* Drinks Row 3 */
 
 .row:nth-child(9) .placeholder:nth-child(1){
 	background-image: url("../imgs/smoothie.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
+	
 }
 .row:nth-child(9) .placeholder:nth-child(2){
 	background-image: url("../imgs/pear.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(9) .placeholder:nth-child(3){
 	background-image: url("../imgs/banana.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(9) .placeholder:nth-child(4){
 	background-image: url("../imgs/cherry.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 
 /* Drinks Row 4 */
 
 .row:nth-child(10) .placeholder:nth-child(1){
 	background-image: url("../imgs/gord.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(10) .placeholder:nth-child(2){
 	background-image: url("../imgs/tomato.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(10) .placeholder:nth-child(3){
 	background-image: url("../imgs/lettuce.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .row:nth-child(10) .placeholder:nth-child(4){
 	background-image: url("../imgs/smoothie2.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 .placeholder{
-	background: #623780;
+	background-color: #623780;
 	width: 100%;
 	height: 400px;
 	margin: 10px auto;
 	border-radius: 5%;
 	contain: content;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.placeholder:hover {
+	transition: all 1s;
+	scale: 1.1;
+	background-color: rgba(98, 55, 128, 0);
+}
+.placeholder:hover .border {
+	transition: all 1s;
+	opacity: 0;
 }
 .sm-none, .lg-show{
 	display: none;
@@ -290,11 +227,9 @@ footer{
 
 footer a{
 	text-decoration: none;
-	/* background: linear-gradient(to right, #623780, #ca84fa, #fde9ea, #623780); */
 	background: linear-gradient(to right, var(--purple), var(--violet), var(--pink), var(--purple));
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	/* white-space: nowrap; */
 	background-size: 200%;
 	animation: background-pan 3s linear infinite;
 }
@@ -310,9 +245,6 @@ footer a{
 @media screen and (min-width: 768px) {
 	.row:nth-child(8) .placeholder:nth-child(1){
 	background-image: url("../imgs/tea2.png");
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
 }
 	#brandImg{
 		width: 25%;
